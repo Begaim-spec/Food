@@ -60,7 +60,7 @@ p {
 .food__text {
   margin: 20px 0;
 }
-.food__kind img {
+.food__sort {
   border-radius: 70px 10px 70px 10px;
 }
 .food__rate {
