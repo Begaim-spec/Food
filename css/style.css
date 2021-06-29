@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Roboto Light, sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  color: #150C01;
+}
+
+.title {
+  font-size: 31.25px;
+  line-height: 24px;
+  text-align: center;
+  margin: 9px 0 25px;
+}
+
+.subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  color: #DC780B;
+}
+
+.food {
+  margin-bottom: 187px;
+}
+.food__desc {
+  text-align: center;
+}
+.food__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  margin: 60px 0;
+  padding: 0 25px 25px;
+}
+.food__icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  line-height: 24px;
+  margin-top: 7px;
+}
+.food__text {
+  margin: 20px 0;
+}
+.food__kind img {
+  border-radius: 70px 10px 70px 10px;
+}
+.food__rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.food__link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #DC780B;
+  margin: 50px 0 12px;
+  display: inline-block;
+}
+
+.app {
+  background: #FBF1E7;
+  padding: 114px 0 129px 149px;
+}
+.app__subtitle {
+  text-align: left;
+}
+.app__title {
+  text-align: left;
+  font-size: 31.25px;
+  line-height: 41px;
+  color: #150C01;
+}
+.app__desc {
+  margin: 29px 0 39px;
+  text-align: left;
+}
+.app__container {
+  max-width: 1440px;
+}
+.app__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+.app__market {
+  width: 163px;
+  height: 48px;
+  background: #150C01;
+  border-radius: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+  margin-right: 30px;
+  padding: 15px 30px;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 19px;
+}
+.app__market svg {
+  margin-right: 9px;
+}
+.app__play {
+  width: 179px;
+  height: 48px;
+  border: 1.5px solid #150C01;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 15px 30px;
+  text-transform: none;
+  color: black;
+  font-size: 16px;
+  line-height: 19px;
+}
+.app__play svg {
+  margin-right: 9px;
+}
+.app__download {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
